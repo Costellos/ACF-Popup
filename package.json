@@ -1,0 +1,17 @@
+{
+  "name": "acf_popup",
+  "version": "1.0.0",
+  "description": "Plugin that uses ACF to create a global popup",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css",
+    "build-css": "node-sass --include-path scss scss/style.scss   css/style.min.css --output-style compressed",
+    "build-js": "uglifyjs js/acf_popup.js  -o js/acf_popup.min.js -c"
+  },
+  "author": "Steven Costello",
+  "license": "GNU",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "uglify-js": "^3.10.0"
+  }
+}

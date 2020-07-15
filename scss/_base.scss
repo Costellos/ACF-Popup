@@ -1,0 +1,15 @@
+html,body {margin:0; padding:10px; -webkit-backface-visibility:hidden;}
+
+/* text-based popup styling */
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 25px;
+    width:auto;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.page_popup_btn{
+    display: none;
+}
